@@ -1,11 +1,12 @@
-import connect from "@/dbConfig/dbconfig"
+import connect from "@/src/dbConfig/dbConfig";
+
 import User from "@/src/models/userModel"
 import {NextRequest, NextResponse} from "next/server"
 import bcryptjs from "bcryptjs";
 
 
 
-connect()
+await connect()
 
 export async function POST(request: NextRequest){
     try{
