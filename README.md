@@ -101,11 +101,6 @@ A secure, scalable authentication system built with Next.js, MongoDB, and JWT, f
 ```bash
 git clone https://github.com/davidudeji/full-stack-auth-app.git
 
----
-
-## **8. What I Learned (THIS GETS YOU HIRED)**
-👉 This is gold for junior roles.
-
 ```md
 ## What I Learned
 
