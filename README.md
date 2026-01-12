@@ -34,3 +34,92 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+# Full-Stack Authentication System (Next.js)
+
+A secure, scalable authentication system built with Next.js, MongoDB, and JWT, featuring password hashing, token-based auth, and real-time user feedback.
+
+## Demo
+
+ Screenshots of Signup & Login Flow  
+
+
+🔗 Live Demo: (if deployed)
+
+
+## ✨ Features
+
+- Secure user signup and login
+- Password hashing with bcrypt
+- JWT-based authentication and authorization
+- Protected routes using middleware
+- Real-time feedback with toast notifications
+- Responsive UI for mobile and desktop
+- Clean API architecture
+
+##  Tech Stack
+
+**Frontend**
+- Next.js (App Router)
+- TypeScript
+- React
+
+**Backend**
+- Next.js API Routes
+- MongoDB & Mongoose
+- JSON Web Tokens (JWT)
+
+**Libraries**
+- bcryptjs – password hashing
+- axios – HTTP requests
+- react-hot-toast – notifications
+
+  ##  How Authentication Works
+
+1. User submits signup/login form
+2. Password is hashed using bcrypt before storage
+3. JWT is generated upon successful authentication
+4. Token is stored securely and sent with requests
+5. Protected routes verify JWT before granting access
+
+##  Project Structure
+
+/app
+  /api
+    /auth
+      login
+      signup
+  /login
+  /signup
+/lib
+/models
+
+
+## ⚙️ Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/davidudeji/full-stack-auth-app.git
+
+---
+
+## **8. What I Learned (THIS GETS YOU HIRED)**
+👉 This is gold for junior roles.
+
+```md
+## What I Learned
+
+- Implementing secure authentication flows
+- Hashing and verifying passwords safely
+- Managing JWT-based authentication
+- Protecting routes in Next.js
+- Building production-ready APIs
+- Improving UX with real-time feedback
+
+## Future Improvements
+
+- Refresh token implementation
+- Role-based access control
+- Email verification
+- OAuth (Google/GitHub login)
+- Rate limiting for security
